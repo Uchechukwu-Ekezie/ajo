@@ -20,9 +20,7 @@ const metadata = {
       : "https://basesafe.app",
   icons: ["https://basesafe.app/icon.png"],
 };
-
-// 3. Define Hedera Testnet
-const hederaTestnet = defineChain({
+const celoTestnet = defineChain({
   id: 296,
   name: "Hedera Testnet",
   nativeCurrency: {
